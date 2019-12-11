@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE5ACC34-1698-F72D-2B32-00A1CC5038B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>N3DS:35</UnityBuildTarget>
+    <UnityVersion>5.6.6f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WWW;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_N3DS;UNITY_N3DS_API;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MICROPHONE;MIC_NOT_SUPPORTED_BY_FMOD;ENABLE_PLATFORMSOCKETS;SUPPORT_THREADS;ENABLE_NETWORK;ENABLE_UNET;ENABLE_WEBCAM;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WWW;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_N3DS;UNITY_N3DS_API;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MICROPHONE;MIC_NOT_SUPPORTED_BY_FMOD;ENABLE_PLATFORMSOCKETS;SUPPORT_THREADS;ENABLE_NETWORK;ENABLE_UNET;ENABLE_WEBCAM;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/PlaybackEngines/N3DS/Tools/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/UnityNew3DS_1_3_4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\rect3dsScript\AnimadorDoPersonagem.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\BuscadorDeID.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\CheckConclusionOfID.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\ContadorCiclico.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\DesativarRelativoAoContador.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\DirecaoNoPlano.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\FlipDirection.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\InstanciaLigando.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\MelhoraPos.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\MyFadeView.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\MyInvokeMethod.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\OnOffAutoShiftAndShift.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\OnOffWithController.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\PiscaInvunerabilidade.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\Rotation2D.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\SendTriggerInfo.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\SendTriggerStayInfo.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\ShakeCam.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\SoundOnAttack.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\SpawnMoedas.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\UIParticleSystem.cs" />
+    <Compile Include="Assets\rect3dsScript\Auxiliares\ZeroOneInterpolation.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\CapsulaDeTransporte.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\CapsuleList.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\CofreDosLosangulos.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Emblemas\Emblema.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Emblemas\EmblemaColetavel.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\LocalNameExibition.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\LosanguloManager.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\PedraPentagono.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\DanoQueTelePorta.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\DanoQueTeleportaQuicavel.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\EspinhosDoCirculoImperfeito.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\EstalactiteQueCai.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\EstalactiteTrigger.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\PrimeiraArmadilhaDoJogo.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\SendPositionTriggerChild.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Perigos\TimedMotionTrap.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\PorquinhoDeMoedas.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\RecuperadorDeMana.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\RequestLocalNameExibition.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\ActiveFalseForShift.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\AlavancaDaGrade.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\CollorBarrage.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\ColorBarrageSemID.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\DestructibleWithAttack.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\FalseWall.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\MagnetismoParaMoeda.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\Segredos\PonteAcorrentadaParaMagias.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\SouUmLosanguloGerenciavel.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\SpawnerDeBarreiras.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\SpriteFinalizadorDeBoss.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\TriggerDeParticulas.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\ColetavelBasse.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\EncaixeColetavel.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\EspadaColetavel.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\HexagonoColetavel.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\HexagonoColetavelBase.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\LosanguloColetavel.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\MoedaDeDinheiro.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\SacoDeDinheiro.cs" />
+    <Compile Include="Assets\rect3dsScript\ElementosDoJogo\coletaveis\SeloPositivista.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\EventAgregator.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\IGameEvent.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\SendMethodEvent.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\StandardGameEvent.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\StandardSendGameEvent.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\StandardSendIntAndStringEvent.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\StandardSendIntEvent.cs" />
+    <Compile Include="Assets\rect3dsScript\EventAgregator\StandardSendStringEvent.cs" />
+    <Compile Include="Assets\rect3dsScript\ExtraFlip.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\ActionManager.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\AtivadorDaLoja.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\AtivadorDaLojaDeHerika.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\AtivadorDeBotao.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\AtivadorDoCheckPoint.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\ChangeImageWithControl.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\DisparaTexto.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\GameHudManager.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\InputTextDoCriandoNovoJogo.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\LanguageMenu.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\LoadBar.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MapPanel.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MensagemComPainel.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MensagemComPainelArrayText.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MensagemComPainelKey.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuBasico.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuComInfo.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuDeEmblemasDisponiveis.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuDeEncaixesDeEmblemas.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuDoInventario.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuDosUpdates.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuOrganizadorDeEmblemas.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenuPentagonosHexagonos.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\MenusDeEmblemabase.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\PainelDeConfirmacao.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\PainelMilitantes.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\PainelPentagonoHexagono.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\PainelUmaMensagem.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\ParentearNaHUD.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\RedimensionarUI.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\UiDeOpcoes.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\UmaOpcao.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\UmaOpcaoComQuantidade.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\UmaOpcaoDeImage.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\UmaOpcaoDeLinguagem.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\UmaOpcaoDeMenu.cs" />
+    <Compile Include="Assets\rect3dsScript\HUD\UmaOpcaoDeUpdates.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\AccelerateEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\AquiferAccelerateEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\AquiferHiddenEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\AquiferWarrior.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\BaseMoveRigidbody.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\BorrifadaFinal.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\BossCirculoImperfeito.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\BossSetaSombria.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\BreederBase.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\BreederEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\BridgeBreederEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\CarapaceTargetEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\DamageObject.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\DefenderEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\EnemyBase.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\EnemyBasic.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\EnemyDamageSender.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\EstocadaEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\FinalBossManager.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\FinalDoSetaSombria.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\FlyingInvestEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\FlyingPursuerEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\InimigoZigZag.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\InvestEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\JumperStandardEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\NonRespawnOnLoadEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\OccultBiterEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\OcultFixedShooter.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\OcultInvestEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\RigidbodyMoveEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\ShooterEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\SprinklerEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\StrategyMovementEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\StrongerArea1Enemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\TargedEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\XShooterEnemy.cs" />
+    <Compile Include="Assets\rect3dsScript\Inimigos\lula_Fase1\BasicEnemyWithAnimations.cs" />
+    <Compile Include="Assets\rect3dsScript\Itens\ItemBase.cs" />
+    <Compile Include="Assets\rect3dsScript\Itens\Loja.cs" />
+    <Compile Include="Assets\rect3dsScript\Itens\LojaDeHerika.cs" />
+    <Compile Include="Assets\rect3dsScript\Itens\TradeManager.cs" />
+    <Compile Include="Assets\rect3dsScript\Paralax.cs" />
+    <Compile Include="Assets\rect3dsScript\Paralax_b.cs" />
+    <Compile Include="Assets\rect3dsScript\PreMapa.cs" />
+    <Compile Include="Assets\rect3dsScript\ScriptTestador.cs" />
+    <Compile Include="Assets\rect3dsScript\ScriptsDeConversa\AtivadorDoBotaoConversa.cs" />
+    <Compile Include="Assets\rect3dsScript\ScriptsDeConversa\AtivadorDoBotaoConversaAgendada.cs" />
+    <Compile Include="Assets\rect3dsScript\ScriptsDeConversa\NpcDeConversa.cs" />
+    <Compile Include="Assets\rect3dsScript\ScriptsDeConversa\NpcDeFalasAgendadas.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\BancoDeTextos.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\EN_Google\ConversasDaArea1EN_G.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\EN_Google\ConversasDaArea2EN_G.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\EN_Google\InterfaceTextListEN_G.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\EN_Google\ListaDeTextosEN_G.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\EN_Google\LocalSceneNamesEN_G.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\EN_Google\TextosChaveEN_G.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\EN_Google\TextosDosUpdatesEN_G.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\InterfaceLanguageConverter.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\InterfaceTextKey.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\LanguageSwitcher.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\PT_BR\ConversasDaArea1PT_BR.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\PT_BR\ConversasDaArea2PT_BR.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\PT_BR\InterfaceTextList.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\PT_BR\ListaDeTextosPT_BR.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\PT_BR\LocalSceneNamesPT_BR.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\PT_BR\TextosChaveEmPT_BR.cs" />
+    <Compile Include="Assets\rect3dsScript\Textos\PT_BR\TextosDosUpdatesPT_BR.cs" />
+    <Compile Include="Assets\rect3dsScript\Trofeus\TrophiesManager.cs" />
+    <Compile Include="Assets\rect3dsScript\Trofeus\TrophyTrigger.cs" />
+    <Compile Include="Assets\rect3dsScript\animationBehaviour\AnimationPoint.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\Android\AndroidController.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\Android\ControladorDeJoystick.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\Android\LeftJoystickView.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\Android\MyButtonEvents.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\AttackManager.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\Camera2D.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\ChangeCamLimits.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\ChangeCamLimitsWithRestrictor.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\CharacterBase.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\CharacterManager.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\CommandReader.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\DashMovement.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\DerrotaDoJogador.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\EstouEmDano.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\ExternalPositionRequest.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\GameController.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\GlobalController.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\JumpManager.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MagicAttack.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MovimentaMagia.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MovimentaProjetil.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\Movimentacao.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MovimentacaoBasica.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MudeCena.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MudeCenaComAcao.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MudeCenaLocal.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\MusicaDeFundo.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\N3ds\N3DS_KeysDic.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\N3ds\N3dsAxis.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\PauseMenu.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\ProjetilInimigo.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\ProjetilParabolico.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\ProjetilQuicavel.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\RestritorDeCamLimits.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\SceneLoader.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\SoundEffectsManager.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\SwordColorManager.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\TeleportDamage.cs" />
+    <Compile Include="Assets\rect3dsScript\controladores\TemporizedForwardProjectle.cs" />
+    <Compile Include="Assets\rect3dsScript\copyMap\BuscadorDeEnderecoDeArquivo.cs" />
+    <Compile Include="Assets\rect3dsScript\copyMap\ContainerPlusMap.cs" />
+    <Compile Include="Assets\rect3dsScript\copyMap\JsonMapContainer.cs" />
+    <Compile Include="Assets\rect3dsScript\copyMap\LoadPlusMap.cs" />
+    <Compile Include="Assets\rect3dsScript\copyMap\MyVector3Int_MyColor.cs" />
+    <Compile Include="Assets\rect3dsScript\copyMap\SaveMap.cs" />
+    <Compile Include="Assets\rect3dsScript\inicializadoresDoJogo\CirculoImperfeitoTrigger.cs" />
+    <Compile Include="Assets\rect3dsScript\inicializadoresDoJogo\CreditosDoJogo.cs" />
+    <Compile Include="Assets\rect3dsScript\inicializadoresDoJogo\InitialOptionsManager.cs" />
+    <Compile Include="Assets\rect3dsScript\inicializadoresDoJogo\MenuDeOpcoes.cs" />
+    <Compile Include="Assets\rect3dsScript\inicializadoresDoJogo\MenuDoNovoJogoCarregarDeletar.cs" />
+    <Compile Include="Assets\rect3dsScript\inicializadoresDoJogo\SetaSombriaTrigger.cs" />
+    <Compile Include="Assets\rect3dsScript\inicializadoresDoJogo\UmaOpcaoDoIniciarJogo.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\CustomLimitantes.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\DadosDeCena.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\DadosDoJogador.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\DadosDoPersonagem.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\ExistenciaDoController.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\KeyVar.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\SaveDates.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\SaveDatesManager.cs" />
+    <Compile Include="Assets\rect3dsScript\manipulacaoDeDados\StringParaEnum.cs" />
+    <Compile Include="Assets\rect3dsScript\myTiles\MyTileGrid.cs" />
+    <Compile Include="Assets\rect3dsScript\myTiles\OneTile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Graphics\particleHiddenForUiParticles.shader" />
+    <None Include="Assets\teste.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

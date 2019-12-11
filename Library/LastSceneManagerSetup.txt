@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/scenes/TutoScene.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/scenes/ComunsDeFase.unity
+  isLoaded: 1
+  isActive: 0
